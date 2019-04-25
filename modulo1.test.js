@@ -7,7 +7,7 @@ describe("basic feature", ()=>{
     it("Should return 11", () =>{
         const cb = jest.fn()
         cb.mockReturnValue(1)
-        expect(modulo1.sMok(10, cb)).toBe(113)
+        expect(modulo1.sMok(10, cb)).toBe(11)
     })
     it("Should return 20", () =>{
 
